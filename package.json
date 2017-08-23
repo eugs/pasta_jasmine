@@ -1,0 +1,23 @@
+{
+    "name": "M4.2_protractor-jasmin",
+    "version": "1.0.0",
+    "main": "spec.js",
+    "scripts": {
+        "prestart": "webdriver-manager update",
+        "start": "webdriver-manager start",
+        "test": "protractor conf.js --suite all",
+
+        "code": "protractor conf.js --suite code",
+        "img": "protractor conf.js --suite image",
+        "vid": "protractor conf.js --suite video",
+        "pastie": "protractor conf.js --suite pastie",
+        "pasties": "protractor conf.js --suite pasties",
+        "neg": "protractor conf.js --suite negative"
+    },
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "devDependencies": {
+        "moment": "^2.18.1"
+    }
+}
